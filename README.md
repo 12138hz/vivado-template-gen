@@ -7,14 +7,23 @@
 运行脚本后，将在当前路径下创建以下目录结构：
 
 your_project/
+
 ├── src/ # 存放 Verilog/VHDL 源代码
+
 ├── ip/ # 存放 IP 核
+
 │ └── coe/ # 存放 COE 文件
+
 ├── constrs/ # 约束文件（如 XDC）
+
 ├── sim/ # 仿真文件
+
 ├── scripts/ # TCL 脚本等辅助脚本
+
 ├── doc/ # 文档或设计说明
+
 ├── README.md # 项目说明（预留）
+
 └── .gitignore # Git 忽略规则
 
 
